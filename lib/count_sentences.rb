@@ -12,13 +12,9 @@ self.end_with?("?")
 
   def exclamation?
 self.end_with?("!")
-return true
-
-  return false
   end
-end
 
   def count_sentences
-self.split(/[!.?]/).reject {|string| string.empty?}
-    return new_array.length
+self.split(/[!.?]/).count
   end
+end
