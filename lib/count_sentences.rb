@@ -16,6 +16,5 @@ self.end_with?("!")
 
   def count_sentences
 self.split(/[!.?]/).count
-return new_array.length
   end
 end
