@@ -13,7 +13,7 @@ self.end_with?("?")
   def exclamation?
 self.end_with?("!")
 return true
-else 
+
   return false
   end
 end
