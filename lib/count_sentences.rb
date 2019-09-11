@@ -13,6 +13,7 @@ self.end_with?("?")
   def exclamation?
 self.end_with?("!")
 return true
+else false
   end
 
   def count_sentences
