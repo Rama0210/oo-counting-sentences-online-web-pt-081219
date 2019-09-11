@@ -16,6 +16,7 @@ return true
 else 
   return false
   end
+end
 
   def count_sentences
 self.split(/[!.?]/).reject {|string| string.empty?}
